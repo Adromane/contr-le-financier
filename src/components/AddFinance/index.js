@@ -42,7 +42,7 @@ const AddFinance = ({onAddFinance}) => {
   return (
   <form>
     <div className='form-content'>
-      <label for='description'>Descrição</label>
+      <label for='description'>Description</label>
       <input onChange={onChangeDesc} value={desc} id='description'/>
     </div>
     <div className='form-content'>
