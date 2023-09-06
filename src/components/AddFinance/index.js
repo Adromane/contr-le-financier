@@ -54,7 +54,7 @@ const AddFinance = ({onAddFinance}) => {
       <label for='earnings'>Entrée</label>
 
       <input type='radio' name='expense-or-earning' id='expenses'/>
-      <label for='expenses'>Saída</label>
+      <label for='expenses'>Sortie</label>
     </div>
     <div className='form-content'>
       <button onClick={send}>ADICIONAR</button>
