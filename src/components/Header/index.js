@@ -22,7 +22,7 @@ const Header = ({onChangeName, name}) => {
           <FiEdit size={20}/>
         </button>
       </div>
-      <p>Seja bem-vindo(a)</p>
+      <p>Bienvenue (à)</p>
     </header>
   );
 };
