@@ -51,7 +51,7 @@ const AddFinance = ({onAddFinance}) => {
     </div>
     <div onChange={onChangeType} className='form-content expense-or-earning'>
       <input type='radio' name='expense-or-earning' id='earnings'/>
-      <label for='earnings'>Entrada</label>
+      <label for='earnings'>Entrée</label>
 
       <input type='radio' name='expense-or-earning' id='expenses'/>
       <label for='expenses'>Saída</label>
