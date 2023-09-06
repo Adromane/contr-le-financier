@@ -40,7 +40,7 @@ const AddFinance = ({onAddFinance}) => {
   }
   //retorno
   return (
-  <form>
+  <form> 
     <div className='form-content'>
       <label for='description'>Description</label>
       <input onChange={onChangeDesc} value={desc} id='description'/>
