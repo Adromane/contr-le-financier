@@ -27,7 +27,7 @@ const AddFinance = ({onAddFinance}) => {
   const send = (event) => {
     event.preventDefault();
     if(desc === '' || value === ''){
-      alert('Descrição e/ou Valor vazio...')
+      alert('Description et/ou valeur vide...')
     } else {
       if(!document.querySelector('input#earnings').checked && !document.querySelector('input#expenses').checked){
         alert('Marque se é uma Entrada ou uma Saída...')
