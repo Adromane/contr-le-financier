@@ -57,7 +57,7 @@ const AddFinance = ({onAddFinance}) => {
       <label for='expenses'>Sortie</label>
     </div>
     <div className='form-content'>
-      <button onClick={send}>ADICIONAR</button>
+      <button onClick={send}>AJOUTER</button>
     </div>
   </form>
   );
