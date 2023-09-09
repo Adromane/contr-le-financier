@@ -30,7 +30,7 @@ const Info = ({finance}) => {
     <section className='info-money'>
       <div className='info-layout'>
         <div className='text'>
-          <h1>Entrada</h1>
+          <h1>Entrée</h1>
           <MdArrowCircleUp color='#1f1e21' size={24}/>
         </div>
         <h2 className='money'>R$ {earningValue.toFixed(2)}</h2>
