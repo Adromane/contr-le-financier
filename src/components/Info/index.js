@@ -44,7 +44,7 @@ const Info = ({finance}) => {
       </div>
       <div className='info-layout'>
         <div className='text'>
-          <h1>soldes</h1>
+          <h1>Soldes</h1>
           <MdAttachMoney color='#1f1e21' size={24}/>
         </div>
         <h2 className='money'>R$ {saldo.toFixed(2)}</h2>
