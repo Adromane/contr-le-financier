@@ -37,7 +37,7 @@ const Info = ({finance}) => {
       </div>
       <div className='info-layout'>
       <div className='text'>
-          <h1>Saída</h1>
+          <h1>Sortie</h1>
           <MdArrowCircleDown color='#1f1e21' size={24}/>
         </div>
         <h2 className='money'>R$ {expenseValue.toFixed(2)}</h2>
