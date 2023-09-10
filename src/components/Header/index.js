@@ -14,7 +14,7 @@ const Header = ({onChangeName, name}) => {
   return (
     <header>
       <div className='name'>
-        <h1>Olá, {name}</h1>
+        <h1>Bonjour, {name}</h1>
         <button
           type='button'
           onClick={changeName}
